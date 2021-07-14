@@ -10,7 +10,6 @@ resource "aws_iam_policy" "policy" {
 
   policy = var.policy
 
-  tags = var.tags
 }
 
 
